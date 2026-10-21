@@ -1,6 +1,17 @@
 # Seer / Signal
 
-X: @0xterricola
+X: [@0xterricola](https://x.com/0xterricola)
+
+## Live demos
+
+1. [Seer homepage](https://0xterricola.github.io/seer-signal/)
+2. [Seer app / Explorer](https://0xterricola.github.io/seer-signal/explorer/)
+3. [Deep](https://0xterricola.github.io/seer-signal/deep/)
+4. [Futarchy](https://0xterricola.github.io/seer-signal/futarchy/)
+5. [Opportunity Markets](https://0xterricola.github.io/seer-signal/opportunity/)
+6. [Risk Pricing](https://0xterricola.github.io/seer-signal/risk/)
+
+[Source repository](https://github.com/0xterricola/seer-signal) · [Preview](preview.png) · [Guided walkthrough](JUDGES-WALKTHROUGH.md)
 
 ## Short rationale
 
@@ -37,3 +48,26 @@ The design stays within EF’s visual character while adapting its components to
 - Current products: https://seer.pm/ ; https://app.seer.pm/ ; https://deep.seer.pm/ ; https://futarchy.seer.pm/ ; https://opportunity.seer.pm/ ; https://risk.seer.pm/
 
 All displayed proposals, protocol names, grant candidates, submissions, activity, prices, and liquidity values are fictional fixtures created for the concept. They do not describe real investments, teams, or market performance.
+
+## Poidh claim description
+
+Use **Seer / Signal** as the claim title and attach [preview.png](preview.png). Copy the description below into the claim, including all six links. This is prepared submission text, not confirmation that a claim has been submitted.
+
+---
+
+X: @0xterricola — https://x.com/0xterricola
+
+Seer / Signal brings six connected interfaces into one coherent product system. The homepage explains Seer as the shared protocol; Explorer spans market types; Deep compares many candidate forecasts; Futarchy compares conditional futures; Opportunity supports submission review; and Risk Pricing keeps estimates comparable. The central principle is simple: markets inform, people decide. Units, liquidity, resolution context, and interpretation stay close to each forecast.
+
+Electric Foundation’s violet, layered neutrals, and light/dark direction anchor the design. Deliberate departures are Space Grotesk headings and DM Sans interface text for readability, persistent ecosystem navigation, more generous spacing, task-specific tables and charts, and labelled activity/liquidity colors. The text wordmark and eye favicon are prototype adaptations, not official exported EF assets. These changes support the different jobs of the six applications while preserving a shared visual language.
+
+The demos are interactive and responsive, with light/dark themes, local saved state, forecast import/export, and simulated market flows. All data is fictional; there is no live trading or wallet integration.
+
+Six public demos:
+
+1. [Seer homepage](https://0xterricola.github.io/seer-signal/)
+2. [Seer app / Explorer](https://0xterricola.github.io/seer-signal/explorer/)
+3. [Deep](https://0xterricola.github.io/seer-signal/deep/)
+4. [Futarchy](https://0xterricola.github.io/seer-signal/futarchy/)
+5. [Opportunity Markets](https://0xterricola.github.io/seer-signal/opportunity/)
+6. [Risk Pricing](https://0xterricola.github.io/seer-signal/risk/)
