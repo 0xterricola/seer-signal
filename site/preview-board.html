@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Seer / Signal — Six interfaces</title>
+    <link rel="stylesheet" href="assets/style.css?v=3" />
+    <style>
+      html,
+      body {
+        width: 1800px;
+        margin: 0;
+        background: #101013;
+        color: #ededf2;
+      }
+      body {
+        padding: 60px;
+      }
+      .board-head {
+        display: flex;
+        align-items: end;
+        justify-content: space-between;
+        margin-bottom: 42px;
+      }
+      .board-head h1 {
+        font-size: 72px;
+        letter-spacing: -4px;
+        margin: 18px 0 0;
+      }
+      .board-head p {
+        font-size: 16px;
+        color: #aaaab3;
+        max-width: 420px;
+      }
+      .board-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 544px);
+        gap: 24px;
+      }
+      .board-cell {
+        border: 1px solid #393342;
+        border-radius: 10px;
+        overflow: hidden;
+        background: #1a1a1e;
+      }
+      .board-label {
+        height: 48px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 18px;
+        font:
+          12px ui-monospace,
+          monospace;
+        letter-spacing: 1px;
+      }
+      .board-label span {
+        color: #b994ff;
+      }
+      .screen {
+        width: 544px;
+        height: 401px;
+        overflow: hidden;
+        background: #101013;
+      }
+      iframe {
+        display: block;
+        width: 1440px;
+        height: 1060px;
+        border: 0;
+        transform: scale(0.377777778);
+        transform-origin: top left;
+        pointer-events: none;
+      }
+      .board-foot {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 32px;
+        font:
+          12px ui-monospace,
+          monospace;
+        color: #aaaab3;
+      }
+      .entry {
+        color: #b994ff;
+        font-size: 12px;
+        letter-spacing: 2px;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="board-head">
+      <div>
+        <div class="entry">
+          ELECTRIC FOUNDATION / SIX-INTERFACE DESIGN ENTRY
+        </div>
+        <h1>Seer / <span style="color: #b994ff">Signal</span></h1>
+      </div>
+      <p>
+        One foundation. Six useful perspectives.<br />Markets inform. People
+        decide.
+      </p>
+    </header>
+    <main class="board-grid">
+      <a class="board-cell" href="./"
+        ><div class="board-label">
+          <b>01 / SEER HOMEPAGE</b><span>THE ECOSYSTEM ↗</span>
+        </div>
+        <div class="screen">
+          <iframe src="./?revision=3" title="Seer homepage"></iframe></div
+      ></a>
+      <a class="board-cell" href="explorer/"
+        ><div class="board-label">
+          <b>02 / SEER EXPLORER</b><span>EVERY MARKET ↗</span>
+        </div>
+        <div class="screen">
+          <iframe src="explorer/?revision=3" title="Seer Explorer"></iframe></div
+      ></a>
+      <a class="board-cell" href="deep/"
+        ><div class="board-label">
+          <b>03 / DEEP</b><span>MANY OUTCOMES ↗</span>
+        </div>
+        <div class="screen"><iframe src="deep/?revision=3" title="Deep"></iframe></div
+      ></a>
+      <a class="board-cell" href="futarchy/"
+        ><div class="board-label">
+          <b>04 / FUTARCHY</b><span>CONDITIONAL FUTURES ↗</span>
+        </div>
+        <div class="screen">
+          <iframe src="futarchy/?revision=3" title="Futarchy"></iframe></div
+      ></a>
+      <a class="board-cell" href="opportunity/"
+        ><div class="board-label">
+          <b>05 / OPPORTUNITY MARKETS</b><span>SELECTION SIGNALS ↗</span>
+        </div>
+        <div class="screen">
+          <iframe src="opportunity/?revision=3" title="Opportunity Markets"></iframe></div
+      ></a>
+      <a class="board-cell" href="risk/"
+        ><div class="board-label">
+          <b>06 / RISK PRICING</b><span>COMPARABLE ESTIMATES ↗</span>
+        </div>
+        <div class="screen">
+          <iframe src="risk/?revision=3" title="Risk Pricing"></iframe></div
+      ></a>
+    </main>
+    <footer class="board-foot">
+      <span>DESIGNED BY @0XTERRICOLA</span
+      ><span>INTERACTIVE DEMOS · RESPONSIVE LAYOUTS · LIGHT & DARK</span
+      ><span>ILLUSTRATIVE DATA / OCTOBER 2026</span>
+    </footer>
+  </body>
+</html>
